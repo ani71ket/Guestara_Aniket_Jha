@@ -11,12 +11,15 @@ Event persistence
 Month navigation
 Event deletion
 Today highlighting
+
 Installation
-Clone repository
-Install dependencies: npm install
-Run the Application Using npm: npm start
-Open in Browser: The app should automatically open at http://localhost:3000. If not, open the link manually.
+-Clone repository
+-Install dependencies: npm install
+-Run the Application Using npm: npm start
+-Open in Browser: The app should automatically open at http://localhost:3000. If not, open the link manually.
+
 Learnings & Challenges
+
 🧠 3 Things Learned Advanced React State Management – Handling complex UI interactions with drag, drop, and resizing. Event Persistence – Implementing local storage to retain events after refresh. Dynamic Grid Handling – Creating a scrollable, responsive 2D grid for scheduling.
 
 😵 Most Difficult Part Implementing 2D drag-and-drop functionality (allowing events to move across both time and resources) while ensuring smooth performance and avoiding flickering.
