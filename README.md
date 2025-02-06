@@ -1,8 +1,24 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Guestara Calendar Assignment
+A monthly calendar timeline implementation with ReactJS and ViteJS.
 
-Currently, two official plugins are available:
+Features
+Monthly calendar view
+Drag to create events
+Multiple resources
+Event persistence
+Month navigation
+Event deletion
+Today highlighting
+Installation
+Clone repository
+Install dependencies: npm install
+Run the Application Using npm: npm start
+Open in Browser: The app should automatically open at http://localhost:3000. If not, open the link manually.
+Learnings & Challenges
+🧠 3 Things Learned Advanced React State Management – Handling complex UI interactions with drag, drop, and resizing. Event Persistence – Implementing local storage to retain events after refresh. Dynamic Grid Handling – Creating a scrollable, responsive 2D grid for scheduling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+😵 Most Difficult Part Implementing 2D drag-and-drop functionality (allowing events to move across both time and resources) while ensuring smooth performance and avoiding flickering.
+
+⏳ What I Would Do Differently with More Time Improve Styling with animations and smoother UI transitions. Add a Database Backend for multi-user event sharing. Enhance Accessibility by ensuring full keyboard navigation support.
