@@ -1,27 +1,48 @@
 # React + Vite
 
-Guestara Calendar Assignment
-A monthly calendar timeline implementation with ReactJS and ViteJS.
+Guestara Calendar Task  
+An interactive monthly calendar timeline built using ReactJS and ViteJS.
 
-Features
-Monthly calendar view
-Drag to create events
-Multiple resources
-Event persistence
-Month navigation
-Event deletion
-Today highlighting
+## Key Features  
+- Interactive monthly calendar interface  
+- Drag-and-drop functionality to create events  
+- Support for multiple resources  
+- Persistent event storage  
+- Easy navigation between months  
+- Event deletion with confirmation  
+- Highlighting of the current date  
 
-Installation
--Clone repository
--Install dependencies: npm install
--Run the Application Using npm: npm start
--Open in Browser: The app should automatically open at http://localhost:3000. If not, open the link manually.
+## Getting Started  
 
-Learnings & Challenges
+1. **Clone the Repository:**  
+   ```bash  
+   git clone <repository-url>  
+   ```  
 
-🧠 3 Things Learned Advanced React State Management – Handling complex UI interactions with drag, drop, and resizing. Event Persistence – Implementing local storage to retain events after refresh. Dynamic Grid Handling – Creating a scrollable, responsive 2D grid for scheduling.
+2. **Install Dependencies:**
+   ```bash  
+   npm install  
+   ```  
 
-😵 Most Difficult Part Implementing 2D drag-and-drop functionality (allowing events to move across both time and resources) while ensuring smooth performance and avoiding flickering.
+3. **Run the Application:**  
+   ```bash  
+   npm run dev  
+   ```  
 
-⏳ What I Would Do Differently with More Time Improve Styling with animations and smoother UI transitions. Add a Database Backend for multi-user event sharing. Enhance Accessibility by ensuring full keyboard navigation support.
+4. **Access the Application:**  
+   Open your browser and navigate to [http://localhost:3000](http://localhost:3000).  
+
+## Key Learnings & Challenges  
+
+### 💡 Lessons Learned:  
+1. Advanced State Management: Gained experience in managing intricate UI logic, including drag, drop, and resizing features.  
+2. Data Persistence: Successfully implemented local storage to preserve event data across sessions.  
+3. Responsive Grids: Developed a flexible and scrollable 2D grid optimized for scheduling events.  
+
+### 🚧 Biggest Challenge:  
+Designing and implementing a smooth 2D drag-and-drop system that allowed seamless movement of events across time slots and resource rows while maintaining high performance.  
+
+### ⏳ Improvements with More Time:  
+- Enhance visual appeal through animations and polished transitions.  
+- Introduce a backend system to enable event sharing and collaboration between users.  
+- Improve accessibility with robust keyboard navigation and ARIA compliance.  
