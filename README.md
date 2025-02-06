@@ -42,7 +42,7 @@ An interactive monthly calendar timeline built using ReactJS and ViteJS.
 ### 🚧 Biggest Challenge:  
 Designing and implementing a smooth 2D drag-and-drop system that allowed seamless movement of events across time slots and resource rows while maintaining high performance.  
 
-### ⏳ Improvements with More Time:  
-- Enhance visual appeal through animations and polished transitions.  
-- Introduce a backend system to enable event sharing and collaboration between users.  
-- Improve accessibility with robust keyboard navigation and ARIA compliance.  
+### 🛠️ Future Improvements:
+- Add tooltips to display event details on hover.
+- Introduce color-coding options for better event categorization.
+- Simplify resource addition with a dedicated input form. 
